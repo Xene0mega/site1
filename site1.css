@@ -1,0 +1,92 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(neige.gif);
+    background-size: cover;
+}
+h1{
+    position: absolute;
+    color:  #5233ff;
+    text-shadow: 10px 10px 10px #6d0a0a;
+    top: -70px;
+    font-size: 190px;
+    text-indent: 496px;
+    font-family: cursive;
+}
+.h0{
+   margin-top: 60px;
+    margin-left: 18%;
+   /*background-color: #5233ff;*/
+   width: 400px;
+   padding-left:150px;
+   padding-right: 450px;
+   padding-bottom:  670px;
+   padding-top:20px;
+    border-radius: 15px;
+  
+   
+}
+/*.h0:hover {
+      box-shadow: 10px 10px 10px gray;
+}*/
+.p1:hover, .p2:hover{
+   box-shadow: 3px 3px 3px #5233ff;
+   
+   
+}
+#a1{
+   text-decoration: none;
+   color: black;
+    
+}
+#a2{
+   text-decoration: none;
+   color: black;
+    
+}
+#a1:hover, #a2:hover{
+   color:#12184a;
+   text-decoration: underline;
+   
+   
+}
+
+
+
+.p1{
+   position: absolute;
+   top: 30px;
+   margin-top: 330px;
+   margin-left: 450px;
+    width: 700px;
+     height: 90px;
+    border: 1px solid black;
+     border-radius: 15px;
+  
+}
+#p3{
+   position: absolute;
+   top: 300px;
+   text-indent: 660px;
+   font-size: 60px;
+   
+}
+
+
+.p2{
+   position: absolute;
+   top: 190px;
+   margin-top: 335px;
+   margin-left: 450px;
+    width: 700px;
+     height: 90px;
+     border: 1px solid black;
+     border-radius: 15px;
+}
+#p4{
+    position: absolute;
+    top: 470px;
+   text-indent: 620px;
+   font-size: 60px;
+    
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE>
+    <html>
+        <head> 
+            <title>site002</title>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link rel="stylesheet" href="site2.css">
+           
+            <!--link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"-->
+        </head>
+       <body>
+         <div class="header">
+               
+                <h1 class="h1">genius</h1>
+               </div>
+         <h1 class="h2">FORMULAIRES</h1>
+         <form method="post" action="traitement php" target="_blank">
+           <fieldset id="section1" >
+            <legend>information personnelle </legend>
+               <label for="nom">Entrer votre nom</label>
+               <input type="text" id="nom" name="nom"><br><br>
+               <label for="pass">mot de passe</label>
+               <input type="password" id="pass" name="pass"><br><br>
+               <label for="date">date de naissance</label>
+               <input type="date" id="date" name="date"><br><br>
+               <label for=" email">votre email</label>
+               <input type="email" id="email" name="email"><br><br>
+          </fieldset>
+           
+           <fieldset id="section2">
+               <legend>information supplementaire </legend>
+               homme ou femme?<br><br>
+                  <input type="checkbox" id="homme" name="sexe" value="homme">
+                  <label for="homme">un  homme</label><br><br>
+                  <input type="checkbox" id="femme" name="sexe" value="femme">
+                  <label for="femme">une femme</label><br><br>
+              où habitez vous?
+               <select name="pays">
+                  <option value="gabon">gabon</option>
+                  <option value="togo">togo</option>
+                  <option value="mali">mali</option>
+                  <option value="ghana">ghana</option>
+                 <option value="cameroun">cameroun</option>
+              </select><br><br>
+         <label for="presentation">votre presentation</label>
+               <textarea id="presentation" name="presentation"></textarea>
+               <br><br>
+         </fieldset>
+            <input type="submit" value="envoyer" >
+            <p class="n1">
+                <a href="site3.html" target="_blank">aller sur la page d'acceuil</a>
+            </p>
+     
+         </form>
+       </body>
+   </html>
